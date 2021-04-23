@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+</head>
+<body>
+    <header>
+            <h1>Hat | <span style="color:lightpink">Race</span></h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#sec-about">About</a></li>
+                <li><a href="#sec-products">Product</a></li>
+                <li><a href="#sec-contact">Contact</a></li>
+                <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </ul>
+        </nav>
+        <i class="fa fa-bars menu toggle" aria-hidden="true"></i>
+    </header>
+        
+    <div class="row">
+        <div class="col-2">
+            <h1>Hat Race for <br>You</h1>
+            <p>Hat for your right style</p>
+            <a href="#sec-products" class="btn">Shop Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="img/photo-1554690245-dbff23d6a317.jfif">
+        </div>
+    </div>
+
+
+<div class="categories">
+    <div class="small-container">
+    <div class="row">
+        
+        <div class="col-3">
+            <img src="/img/img2.jfif">
+        </div>
+        <div class="col-3">
+            <img src="/img/img2.jfif">
+        </div>
+        <div class="col-3">
+            <img src="/img/img2.jfif">
+        </div>
+    </div>
+    </div>
+</div>
+
+<div class="small-container">
+    <h2 class="title" id="sec-products">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="/img/istockphoto-186810611-612x612.jpg">
+            <h4>Blue Summer Hat</h4>
+            <p>$2.99</p>
+        </div>
+        <div class="col-4">
+            <img src="/img/istockphoto-186810611-612x612.jpg">
+            <h4>Blue Summer Hat</h4>
+            <p>$2.99</p>
+        </div>
+        <div class="col-4">
+            <img src="/img/istockphoto-186810611-612x612.jpg">
+            <h4>Blue Summer Hat</h4>
+            <p>$2.99</p>
+        </div>
+        <div class="col-4">
+            <img src="/img/istockphoto-186810611-612x612.jpg" alt="summer hat">
+            <h4>Blue Summer Hat</h4>
+            <p>$2.99</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3 id="sec-about">About Us</h3>
+                <p>Hat Race is delivering a uniques and stylist modern hat that suit for every generation.
+                </p>
+            </div>
+            <div class="footer-col-2">
+                <h3 id="sec-contact">Contact Us</h3>
+                <p>+00 000 000 000</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>    
+                    <li><a href="">Instagram</a></li> 
+                    <li><a href="">Twitter</a></li>  
+                </ul>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.menu').click(function(){
+            $('ul').toggleClass('active');
+        })
+    })
+</script>
+
+</body>
+</html>
